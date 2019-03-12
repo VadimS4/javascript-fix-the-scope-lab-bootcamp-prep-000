@@ -16,6 +16,11 @@ function yourAnimal() {
 
 function add2(n) {
   
+  //We have to declare the constant two before we 
+  //do anything with it. The error was declaring the 
+  //constant after the function passed through.
+  
+  
   const two = 2
   return n + two
 
