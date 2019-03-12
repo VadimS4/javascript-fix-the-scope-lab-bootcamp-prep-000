@@ -5,9 +5,10 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
+  // We declare the variable "animal" to be "cat" 
+  //inside of the yourAnimal Function. Therefore, 
+  //when this function is called, only the variable
+  //inside of it will be read.
   
   var animal = 'cat'
   return animal
